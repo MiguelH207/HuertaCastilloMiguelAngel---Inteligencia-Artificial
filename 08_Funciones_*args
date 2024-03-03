@@ -1,0 +1,32 @@
+
+def suma(numero1, numero2): ## Practica 33 - Ejercicio 51
+    resultado = numero1+numero2
+    print("El resultado de ",numero1," + ",numero2," = ", resultado)
+suma(15,15)
+suma(15,35)
+suma(50000,7000)
+
+def colores1(*args): ## Practica 34 - Ejercicio 52
+    print(args[:])
+    pass
+
+colores1('rojo', 'azul', 'verde', 'amarillo')
+colores1('lila', 'negro', 'rojo')
+colores1('rosa')
+colores1('marrón', 'naranja')
+
+def colores2(*args): ## Practica 34 - Ejercicio 53
+	print('El color', args[1], 'es mi favorito.', 'El color', args[0], 'tampoco está mal.')
+
+colores2("violeta","cafe")
+
+def sumaargs(*args): ## Practica 34- Ejercicio 54
+    resultadoargs = args[0] + args[1] + args[2] + args[3] + args[4]
+    print("La suma de mi array 'sumaargs' es: ", resultadoargs)
+
+sumaargs(10, 36, 24, 92, 55)
+
+def colores3 (**kwargs): ## Practica 35 - Sin ejercicios
+	print("Este es el color " + kwargs['color1'] + '.')
+
+colores3(color1='rosa', color2='cafe')
