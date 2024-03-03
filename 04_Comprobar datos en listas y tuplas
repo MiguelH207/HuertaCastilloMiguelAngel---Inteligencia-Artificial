@@ -1,0 +1,15 @@
+colores = ("azul","rojo","amarillo","verde")
+
+color_usuario = input("Intorduce un color: (letras en minusculas, sin acentos y sin espacios)\n")
+if color_usuario in colores:
+    print("Ese color si se encuentra en la lista.")
+    if color_usuario == "rojo":
+        print('Rojo esta en la posicion 1.')
+    if color_usuario == "azul":
+        print('Azul esta en la posicion 0.')
+    if color_usuario == "amarillo":
+        print('Amarillo esta en la posicion 2.')
+    if color_usuario == "verde":
+        print('Verde esta en la posicion 3.') ## Practica 24
+else:
+    print("Ese color no se encuentra disponible.") ## Practica 23
