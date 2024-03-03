@@ -1,0 +1,37 @@
+# Inteligencia Artificial #
+
+## MIS DATOS ##
+nom1 = "miguel" ## Practica 01 - Ejercicio 1
+nom2 = "angel" ## Practica 02 - Ejercicio 5
+nom3 = 'huerta' ## Practica 02 - Ejercicio 5
+nom4 = "castillo"
+nom_com = nom1 + " " + nom2 + " " + nom3 + " " + nom4 ## Practica 3 - Ejercicio 7, 9 y 10
+nom_com = nom_com.title() ## Practica 4 - Ejercicio 12 
+reg_1 = "2131" 
+reg_2 = "0236" 
+registro=reg_1+reg_2 ## Practica 3 - Ejercicio 8 y 11
+print(nom_com + "\n" + registro) ## Practica 5 - 
+
+## DESARROLLO PRACTICAS ##
+num1 = 5 
+num2 = 10 ## Practica 01 - Ejercicio 2
+num3 = num1+num2 ## Practica 01 - Ejercicio 3
+print("\nPractica 01: ", num3) ## Practica 01 - Ejercicio 4
+msj_1 = 'Practica 02: "Print()" se utiliza para imprimir valores en la consola '
+print(msj_1) ## Practica 02 - Ejercicio 6
+msj_2 = "ESTA eS UnA fraSE pAra SeR FormATEADa."
+print("Practica 04_UPPER: ",msj_2.upper(), "\nPractica 04_LOWER: ",msj_2.lower()) ## Practica 4 - Ejercicio 13 y 14
+
+print("Practica 05: \n- Python.\n- JavaScript.\n- Java.\n- PHP.\n- TypeScript.\n- SQL.\n- COBOL.\n- C++.\n- TURTLEART.")
+
+suma = 20 + 23 + 44
+resta = -20 -23 -44
+mult = 20*23*1.89131
+div = 5000/ 230 / 2
+print("Practica 06:\nSuma: ",suma, "\nResta: ",resta,"\nMultiplicacion: ",mult, "\nDivision: ",div) ## Practica 07 - Ejercicio 16,17,18 y 19
+
+print("Practica 07:\nExponente: ",respuesta_1024 = 2**10) ## Practica 07 - Ejercicio 21
+
+num_4 = 17.567383292929200234
+print("Practica 08:\nRound(): ",round(num_4,5))## Practica 08 - Ejercicio 22
+
