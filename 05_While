@@ -1,0 +1,31 @@
+print("Bucle 1:")
+x = 0
+while x<=15:  ## Practica 26 - Ejercicio 42
+    print (x)
+    x += 5
+
+print("Bucle 2:")
+x=0
+while x>=-100:  ## Practica 26 - Ejercicio 43
+    print (x)
+    x -= 20
+
+print("Bucle 3:")
+x=10
+while x>=0:  ## Practica 26 - Ejercicio 44
+    print ("El valor del bucle es: ",x)
+    x -= 1
+
+
+print("Bucle 4:")
+x=0
+while x<=30:  ## Practica 27 - Ejercicio 45
+    x +=1
+    if x==15:
+        print("El bucle se rompio con el valor: ", x)
+        break
+    if x==4 or x==6 or x==10:
+        print ("Se salto el valor: ", x)
+    else:
+        print(x)
+
