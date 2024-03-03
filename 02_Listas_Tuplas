@@ -1,0 +1,50 @@
+## Inteligencia Artificial ## 
+print("Miguel Angel Huerta Castillo     21310236\nPracticas - Listas \n\n")
+
+lista_1 = ["rojo", "azul", "verde", "amarillo", "marron", "lila", "negro", "rosa"] ## Practica 09 - Ejercicio 23
+lista_2 = ["tres", "dos", "cinco", "cuatro", "uno"] ## Practica 09 - Ejercicio 25
+tupla_1 = ('rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja')
+tupla_2 = (10, 1, 5, 11)
+
+print("Lista 1: ", lista_1)
+print("Lista 2: ", lista_2) 
+
+print("\n\nEl color 'rojo' debe estar en la posición [0]:  ") ## Practica 09 - Ejercicio 24
+print("El color 'rosa' debe estar en la posición [7]:  ") ## Practica 09 - Ejercicio 24
+print("Comprobamos...\n",lista_1[0],"\n",lista_1[7])
+
+lista_1.append('blanco')  ## Practica 14 - Ejercicio 30 
+lista_1.append('naranaja') 
+lista_1.append('fuxia') 
+lista_1.append('celeste') 
+
+print("\n\nDe la nueva lista 1: ", lista_1)
+print("Ubicamos: ", lista_1[-3], ",", lista_1[-9], ",", lista_1[-7], ",", lista_1[-4], ",", lista_1[-12], "- Los encontramos con numeros negativos") ## Practica 10 - Ejercicio 26
+
+del lista_1[-5] ## Practica 11 - Ejercicio 27
+del lista_1[1]
+del lista_1[-5]
+del lista_1[-6]
+
+print("\n\nEliminamos 'azul', 'marrón', 'negro' y 'rosa' con 'del()' y la lista 1 nos queda: ", lista_1)
+
+lista_1.append('amarillo')
+lista_1.remove("rojo") ## Practica 12 - Ejercicio 28
+lista_1.remove("amarillo")
+print("\nAhora eliminamos 'rojo' y 'amarillo' con '.remove()' y la lista 1 nos queda: ", lista_1)
+lista_1.append('azul')
+lista_1.insert(0,'magenta')
+lista_1.insert(6,'turquesa') ## Practica 15 - Ejercicio 31
+
+x1 = lista_1.pop()
+x2 = lista_1.pop(3) ## Practica 13 - Ejercicio 29
+print("\nEliminamos 'azul' y 'blanco' y agregamos 'turquesa' y 'magenta' de la lista 1 y los almacenamos en variables\n\nLista 1: ", lista_1, "\nVariable 1: ",x1,"\nVariable 2: ",x2)
+lista_1.sort(reverse=True) ## Practica 16 - Ejercicio 32
+
+print("\n\nPor ultimo la lista 1 ordenada alfabeticamente descendente: \nCantidad: ", len(lista_1), "\n", lista_1) ## Practica 17 - Sin ejercicios
+
+print("\nImprimimos la posicion dos la tupla 1: ", tupla_1,"\nPosicion 2:\n", tupla_1[2]) ## Practica 18 - Ejercicio 33
+operacion = tupla_2[3]-tupla_2[1]+tupla_2[0]+tupla_2[2]
+print("Para conseguir 25 de la siguiente tupla:", tupla_2, "\nPodemos sumar sus posiciones, veamos: ",operacion) ## Practica 18 - Ejercicio 34
+
+print("Tambien podemos convertir listas a tuplas por ejemplo la lista 1 que hemos esta usando es:\n",type(tupla_3 = tuple(lista_1))) ## Practica 19 y 25 - Ejercicio 35
