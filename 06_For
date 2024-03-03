@@ -1,0 +1,9 @@
+colores = ('rojo','azul','verde','amarillo')
+
+print("Bucle 1:")
+for x in colores: ## Practica 28 - Ejercicio 46
+    print(x)
+
+print("\nBucle 2:")
+for x in range(7,700,100): ## Practica 29 - Ejercicio 47
+    print(x)
