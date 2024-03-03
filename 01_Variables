@@ -34,4 +34,3 @@ print("Practica 07:\nExponente: ",respuesta_1024 = 2**10) ## Practica 07 - Ejerc
 
 num_4 = 17.567383292929200234
 print("Practica 08:\nRound(): ",round(num_4,5))## Practica 08 - Ejercicio 22
-
