@@ -1,0 +1,47 @@
+import math ## Practica 43
+import datetime
+
+global nombre ## Practica 42
+global apellidos
+global registro
+class Alumno(): ## Practica 36
+    nombre = ''
+    apellidos = ''
+    registro = ''
+    def __init__(self, nombre, apellidos, registro): ## Practica 37 
+        self.nombre = nombre
+        self.apellidos = apellidos
+        self.registro = registro
+    def imprime_datos(self):
+        print('Nombre:', self.nombre, '\nApellidos:', self.apellidos, '\nRegistro:', self.registro)
+
+class Becario(Alumno): ## Practica 40
+    beca = ''
+    monto = 3500
+    def __init__(self, nombre, apellidos, registro, beca, monto): ## Practica 41
+        self.nombre = nombre
+        self.apellidos = apellidos
+        self.registro = registro
+        self.beca = beca
+        self.monto = monto
+    pass
+
+
+usuario001 = Alumno('Jorge', 'Nitales Gomez','17300234')
+usuario002 = Alumno('Javier', 'Gomila Reyes','21310234')
+
+fecha = datetime.datetime.now() ## Practica 44
+print("Fecha de hoy: ",fecha,"\n\n")
+
+usuario001.imprime_datos()
+usuario002.imprime_datos()
+
+usuario002.registro = "17300432" ## Practica 38
+usuario002.imprime_datos()
+
+del Alumno.nombre ## Practica 39
+usuario001.imprime_datos()
+
+
+area = lambda radio: (math.pi * radio**2) ## Practica 43
+print("Radio 5 para mi funcion lambda que determina area: ", area(5))
